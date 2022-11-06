@@ -1,11 +1,19 @@
 {
   "name": "learn/php",
-  "description": "learning php compose",
+  "description": "learning php composer",
   "license": "free",
+  "authors": [
+      {
+        "name": "lexero"
+      }
+  ],
   "require": {
     "google/recaptcha": "^1.1",
     "doctrine/orm": "^2.5",
     "symfony/symfony": "^4.4",
     "google/apiclient": "^2.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
   }
 }
