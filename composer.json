@@ -1,0 +1,11 @@
+{
+  "name": "learn/php",
+  "description": "learning php compose",
+  "license": "free",
+  "require": {
+    "google/recaptcha": "^1.1",
+    "doctrine/orm": "^2.5",
+    "symfony/symfony": "^4.4",
+    "google/apiclient": "^2.4"
+  }
+}
