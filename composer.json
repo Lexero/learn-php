@@ -1,12 +1,19 @@
 {
   "name": "learn/php",
   "description": "learning php composer",
+  "type": "project",
   "license": "free",
   "authors": [
       {
         "name": "lexero"
       }
   ],
+  "autoload": {
+    "psr-4": {
+      "Aivanov\\Untitled\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
   "require": {
     "google/recaptcha": "^1.1",
     "doctrine/orm": "^2.5",
