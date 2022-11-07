@@ -1,5 +1,5 @@
 {
-  "name": "learn/php",
+  "name": "lexero/learn-php",
   "description": "learning php composer",
   "type": "project",
   "license": "free",
@@ -10,7 +10,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Aivanov\\Untitled\\": "src/"
+      "Aivanov\\LearnPhp\\": "src/"
     }
   },
   "minimum-stability": "dev",
