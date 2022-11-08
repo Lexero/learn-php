@@ -1,13 +1,14 @@
 <?php
 
-function binarySearch ($array, $item) {
+function binarySearch(array $array, int $item) {
     sort($array);
     $max = count($array);
     $min = 0;
+
     for ($i = 1; $i <= $max; $i++) {
         $middle = floor(($max + $min)/2);
         $tryToGuess = $array[$middle];
-        if ($tryToGuess == $item) {
+        if ($tryToGuess === $item) {
             return $middle;
         }
         elseif ($tryToGuess > $item) {
@@ -21,4 +22,5 @@ function binarySearch ($array, $item) {
 }
 
 $arr = [1 ,4 ,5 ,6 , 9 , 13, 15];
+
 echo (binarySearch($arr, 13));
