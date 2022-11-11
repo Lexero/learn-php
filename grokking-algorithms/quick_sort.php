@@ -1,6 +1,6 @@
 <?php
 
-function quickSort(array $arr)
+function quickSort(array $arr): array
 {
     if (count($arr) == 1) {
         return $arr;

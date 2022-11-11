@@ -4,3 +4,6 @@ composer.lock
 .idea
 .DS_store
 psalm.xml
+learn-symfony/.env.test
+learn-symfony/phpunit.xml.dist
+learn-symfony/.phpunit.result.cache
